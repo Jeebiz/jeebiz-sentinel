@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo message="antrun copy resources"/>
+  <copy file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard/sentinel-dashboard-1.8.0.jar" todir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jeebiz-sentinel-dashboard/lib"/>
+  <mkdir dir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jeebiz-sentinel-dashboard/conf"/>
+  <copy file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/classes/application.properties" todir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jeebiz-sentinel-dashboard/conf"/>
+  <copy file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard/sentinel-dashboard-1.8.0.jar" todir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jsw/jeebiz-sentinel-dashboard/lib"/>
+  <mkdir dir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jsw/jeebiz-sentinel-dashboard/conf"/>
+  <copy file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/classes/application.properties" todir="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jsw/jeebiz-sentinel-dashboard/conf"/>
+  <delete file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jeebiz-sentinel-dashboard/install.sh"></delete>
+  <delete file="D:\workspaces\workspace-jeebiz\workspace-jeebiz-admin\jeebiz-sentinel-dashboard\target/generated-resources/appassembler/jeebiz-sentinel-dashboard/uninstall.sh"></delete>
+</target>
+</project>

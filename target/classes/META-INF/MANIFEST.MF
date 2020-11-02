@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: jeebiz-sentinel-dashboard
+Implementation-Version: 1.0.0-SNAPSHOT
+Specification-Vendor: Jeebiz
+Specification-Title: jeebiz-sentinel-dashboard
+Build-Jdk-Spec: 1.8
+Specification-Version: 1.0
+Created-By: Maven Integration for Eclipse
+Implementation-Module: jeebiz-sentinel-dashboard
+Implementation-Vendor: Jeebiz
+
