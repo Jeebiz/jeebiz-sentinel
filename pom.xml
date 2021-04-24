@@ -7,7 +7,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.0.5.RELEASE</version>
+		<version>2.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
@@ -36,7 +36,7 @@
 		
 		<!-- Maven Plugin versions -->
 		<maven-appassembler-plugin.version>2.1.0</maven-appassembler-plugin.version>
-		<sentinel-dashboard.version>1.8.0</sentinel-dashboard.version>
+		<sentinel-dashboard.version>1.8.1</sentinel-dashboard.version>
 		
 		
 	</properties>
